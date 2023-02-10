@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portafolio-LuisAcevedo</title>
 </head>
 <header>
@@ -22,10 +23,42 @@
 
 
         </ul>
-        <img class="menu" src="./IIconos/menu.svg" alt="">
+        <img  src="./IIconos/menu.svg" id="menu-btn" alt="">
      </nav>
+
+
+
 </header>
+
+
+
 <body>
+     
+ <!----div ventana menu-->
+ <div class="menu-container hide" id="menu-container">
+
+    <div class="menu" id="menu"> 
+
+        <div class="menu-close" id="close-menu">
+            <i class="bx bx-x bx-md"></i>
+            
+          </div>
+        
+        <ul class="menuList">
+            <li> <a href="#home">Home</a></li>
+            <li><a href="#acerca">Acerca de mí</a></li>
+            <li><a href="#destrezas">Destrezas</a></li>
+            <li><a href="#habilidades">Mis habilidades</a></li>
+            <li><a href="#portafolio">Mi portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+
+        </ul>
+
+
+    </div>
+
+
+</div>
 
     <!------------SECTION 1----->
     <section class="uno" id="home">
@@ -35,7 +68,7 @@
      <div class="container">
         <div class="container0">
 <h1>Luis Acevedo</h1>
-<p>Hola, soy Full-Stack Developer <br> y ofrezco mis conocimientos en <br> javascript, CSS, HTML, React, <br> para servicio de tu compañía.
+<p>Hola, soy Full-Stack Developer <br> y ofrezco mis conocimientos en <br> Javascript, CSS, HTML, React, <br> para servicio de tu compañía.
     <h2><span class="anios">+Disposición Completa</span> <br>de seguir aprendiendo!!</span></h2>
 </p>
 <div class="redes">
@@ -105,7 +138,7 @@
 <div class="exp">
 <img class="imex" src="./IIconos/auto.png" alt="">
 <div class="expPal">
-    <h3>Aptitud</h3>
+    <h3>Aptitud de Aprendizaje</h3>
     <h4>Autodidacta</h4><br>
     
 </div></div></div>
@@ -119,7 +152,7 @@
 <div class="par" id="a"> <span class="i">85%</span><div class="divh34"><h3 class="h34" >Mobile app design</h3></div></div>
 <div class="par" id="b"> <span class="i">85%</span><div class="divh34"><h3 class="h34" >Web design</h3></div></div>
 <div class="par" id="c"> <span class="i">70%</span><div class="divh34"><h3 class="h34" >Motion design</h3></div></div>
-<div class="par" id="d"> <span class="i">70%</span><div class="divh34"><h3 class="h34" >Creación y mantenimiento de  sistemas de diseño</h3></div></div>
+<div class="par" id="d"> <span class="i">70%</span><div class="divh34"><h3 class="h34" >Creación y mantenimiento <br> de  sistemas de diseño</h3></div></div>
 <div class="par" id="e"> <span class="i">90%</span><div class="divh34"><h3 class="h34" >Trabajo en Equipo</h3></div></div>
 
 
@@ -131,9 +164,16 @@
 <div class="container5">
 <h1 class="miport">Mi portafolio</h1>
 <div class="wrap">
-<img class="miport" src="./Logos/image 9-1.jpg" alt="">
-<img class="miport" src="./Logos/image 10.jpg" alt="">
-<img class="miport" src="./Logos/image 11.jpg" alt="">
+    <a href="https://ecommerceluisacevedo1.netlify.app/"><img class="miport" src="./Logos/ecommerceJavascript.png" alt=""></a>
+    <a href="https://entregable2clima.netlify.app/"><img class="miport" src="./Logos/clima.png" alt=""></a>
+    <a href="https://cardexercise5.netlify.app/"><img class="miport" src="./Logos/tarjeta.png" alt=""></a>
+    <a href="https://entregableformcrud.netlify.app/"><img class="miport" src="./Logos/tarjetaGenerada.png" alt=""></a>
+    <a href="https://entregablebuscadormorty3.netlify.app/"><img class="miport" src="./Logos/morty.png" alt=""></a>
+    <a href="https://pokeluis.netlify.app/"><img class="miport" src="./Logos/pokedex.png" alt=""></a>
+    <a href="https://entregable-final-react.netlify.app/"><img class="miport" src="./Logos/ecommerceReact.png" alt=""></a>
+    <a href="https://tareamoralencendido1.netlify.app/"><img class="miport" src="./Logos/australia.png" alt=""></a>
+
+
 </div></div>
 <!----------------SECTION  6-->
 
@@ -160,5 +200,6 @@
 </div>
 
 </section>
+<script src="./main.js"></script>
 </body>
 </html>
