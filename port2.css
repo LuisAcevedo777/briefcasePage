@@ -876,17 +876,16 @@ color: white;
 img.menu{
   display: none;
 }
-  body{
+  .body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   width: 98vw;
-  background-color:#2c2f42;
+    background-color:#2c2f42;
   }
-html{width: 98vw;}
+
 
 p{
   font-family: 'Inter', sans-serif;
@@ -1222,17 +1221,18 @@ nav.pint{
   
   height: 31rem;
   width: 55%;
-  background-color: #2c2f42;
+  background-color: aqua;
   position: relative;
   
 }
 
 /*Section 5*/
 section.cinco{
-   margin-top: 2rem;
+     margin-top: 2rem;
   height: auto;
   width: 97vw;
  background-color:#262837;
+
 
 }
 div.container5{
@@ -1242,22 +1242,24 @@ justify-content: center;
 align-items: center;
 padding-top: 2rem;
 margin-bottom: 2rem;
-width: 97vw;
+width: 100%;
+background-color:#262837;
+
 }
 div.wrap{
-  display: flex;
-  flex-direction: row;
-  gap: 2rem; 
+  gap: 2rem;
   margin-top: 2rem;
+  display: flex;
   flex-wrap: wrap;
-  width: 80vw;
+  justify-content: center;
+  width: 90%;
   height: auto;
- flex-direction: row;
- justify-content: center;
+  align-items: center;
 
 
 }
 img.miport{
+  height: 16rem;
  width: 16rem;
  box-shadow: 0 -1.2rem 0 0.3rem  #F1A600;
 margin-top: 2rem;
