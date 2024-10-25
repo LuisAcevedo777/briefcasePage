@@ -132,12 +132,13 @@ text-align: center;
       height: auto;
         background-color:#1F1D2C;
         padding-top: 7rem;
+        padding-bottom: 10rem;
         z-index: 3;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     
+            
          }
          div.container0{z-index: 6;}
     
@@ -216,8 +217,8 @@ section.dos{
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    padding-top: 7rem;
- 
+   padding-top: 10rem;
+   margin-bottom: 10rem; 
 }
 div.container2{
   display: flex;
@@ -228,7 +229,7 @@ div.container2{
   height: auto ;
   position: relative;
   width: 100%;
-  padding-bottom: 3rem;
+
 }
 div.i1{
   margin-top: 4rem;
@@ -259,11 +260,7 @@ h3{
   font-size: 20px;
   color: white;
 }
-h4{
-  margin-top: 0.1rem;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-}
+
 p.p2{
   font-family: 'Inter', sans-serif;
   font-size: 24px;
@@ -284,7 +281,9 @@ section.tres{
   padding-top: 7rem;
   padding-bottom: 3rem;
 }
-
+.h3-exp{
+   width: 100%;
+}
 div.imlog{
   
   width: 70vw;
@@ -297,6 +296,7 @@ div.imlog{
 }
 
 .aptitudes{
+  
 height: 100%;
 width: 90%;
   display: flex;
@@ -316,26 +316,24 @@ div.exp{
   align-items: center;
    width: 100%;
   z-index: 15555;
+ 
 }
 
 .expPal{
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: start;
+  
 }
-h4{color: wheat;}
-
-.h3-exp{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+h4{color: wheat;
+display: flex;
+flex-direction: column;
+justify-content: start;
+width: 100%;
 }
+
 
 img.imex{
   width: 6rem;
